@@ -1,0 +1,27 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class: define and group elemnts as class, treat as one
+#id: use with div tag, same as class, but each used once only
+*: for all elements
+element
+element, element
+element(y) element(x): Appling to all x inside of y
+element(y) > element(x): Applying to all x which has parent y, meaning just directly under x
+element(y) + element(x): Selecting the x right after y
+:hover - Used to hover text, used infron of element
+:last-child - for applying on the first element of class/div
+:first-child - for applying on the last element of class/div
+!important (not recommended) - Used to overwrite past code even if new updates made
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
